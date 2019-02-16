@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
 
-class MyHandler implements HttpHandler {
+class RPCHandler implements HttpHandler {
     @Override
     public void handle(HttpExchange t) throws IOException {
         ResponseData responseData = new ResponseData();
